@@ -6,8 +6,8 @@
       Elise Blanchard
 
    COLORS USED:
-      Dark Gray: #2F343B 
-      Lighter Gray: #3e454d
+      Dark Gray: #333333 
+      Lighter Gray: #CCCCCC
       Blue: #35B1BD
       Darker Blue: #267f88  
    ========================================================================== */
@@ -19,35 +19,19 @@
    ========================================================================== */
     * {
         box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
         line-height: 1.5;
-        color: #2F343B;
+        color: #333;
     }
 
-    body {
-        background: white;
-        margin: 0;
-        padding: 0;
-    }
-    
-    @media only screen and (max-width : 700px) {
-        body { font-size: .875em;}
-    }
+    body { }
 
 
 
 /* ==========================================================================
    Universal Wrapper Styles
    ========================================================================== */
-    .wrapper {
-        width: 100%;
-    }
-    .inner {
-        max-width: 950px;
-        width: 90%;
-        margin: 0 auto;
-        padding: 1em;
-    }
+    .wrapper { }
+    .inner { }
 
 
 
@@ -55,173 +39,29 @@
    Global Styles
    ========================================================================== */
 
-/* Modular Scale */
-/* http://modularscale.com/scale/?px1=16&px2=32&ra1=1.5&ra2=0 */
-    
-/* Headings */
-    h1, h2, h3, h4, p {
-        margin: 1em 0;
-        padding: 0;
-        color: #2F343B;
-    }
 
-    h1 {
-        font-size: 4em;
-    }
 
-    h2 {
-        margin: 1.5em 0 .5em 0;
-        font-size: 2em;
-        font-weight: 600;
-    }
-
-    h3 {
-        font-size: 1.333em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-/* Links */
-    a {
-        text-decoration: none;
-        color: #35B1BD;
-    }
-    
-    a:hover { color: #267f88;}
-
-/* Listing Styles */
-    dt {
-        font-size: 1.333em;
-        color: #35B1BD;
-        font-weight: 400;
-    }
-    
-    dd {
-        padding: 0;
-        margin: 0 0 0 3em;
-    }
-    
-    ul {
-        margin: 1em 0;
-        padding: 0 0 0 3em;
-        
-    }
-    ul:after {
-        clear: both;
-        display: table;
-        content: '';
-    }
-    
-    li {
-        width: 33%;
-        float: left;
-    }
-    
-    /* MOBILE SYTLES */
-    @media only screen and (max-width : 700px) {
-        li {
-            width: 100%;
-            float: none;
-        }
-    }
-    
-/* Helper Classes */
-    .small { font-size: .66em;}
-    
-    .clear { clear: both; }
+/* ==========================================================================
+   Nav Styles
+   ========================================================================== */
 
 
 
 /* ==========================================================================
    Header Styles
    ========================================================================== */
-    header.wrapper {
-        background: #2F343B;
-        color: white;
-        
-    }
-    
-/* Logo */
-    .logoType {
-        font-weight: 100;
-        text-transform: uppercase;
-        text-align: left;
-        font-size: 1.5em;
-        letter-spacing: .05em;
-        color: white;
-    }
 
 
 
 /* ==========================================================================
-   Introductory Content Styles
+   Main / Resume Styles
    ========================================================================== */
-    .intro.wrapper {
-        color: #2F343B;
-        text-align: center;
-        background: #35B1BD url(images/keyboard.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    .intro.wrapper h1 {
-        padding: 20vh 0;
-        text-transform: uppercase;
-        font-size: 4em;
-        font-weight: 100;
-        
-    }
-    
-    .intro.wrapper h1 span {
-        color: white;
-    }
-    
-    /* MOBILE SYTLES */
-    @media only screen and (max-width : 700px) {
-        .intro.wrapper h1 {
-            font-size: 2.5em;
-            padding: 1em 0;
-        }
-    }
 
 
 
 /* ==========================================================================
-   Resume Styles
+   Footer Styles
    ========================================================================== */
-    .content.wrapper {
-        margin-bottom: 2em;
-    }
 
 
 
-/* ==========================================================================
-   Footer styles
-   ========================================================================== */
-    footer.wrapper {
-        color: white;
-        background: #2F343B;
-    }
-    
-    .col1, .col2 {
-        float: left;
-        padding: 1em;
-    }
-    .col2 p {
-        color: white;
-    }
-    
-    .col1 img {
-        border-radius: 150px;
-    }
-    
-    /* MOBILE SYTLES */
-    @media only screen and (max-width : 700px) {
-        .col1, .col2 {
-            text-align: center;
-            width: 100%;
-        }
-    }
